@@ -23,4 +23,15 @@ Este reto sirve para calcular el precio final con un descuento. Como cliente nec
    precio_final = precio - (precio * descuento / 100) # codigo minimo
     return precio_final
 
+## Descripción
+
+Este proyecto corresponde al Reto 5: Calcular descuento simple, aplicado con la metodología TDD (Test Driven Development) en Python.
+
+El desarrollo se hizo siguiendo las fases de TDD:
+
+Rojo: primero se escribieron pruebas unitarias que fallaron al no existir la función.
+Verde: se implementó el código mínimo que hace pasar las pruebas.
+Refactor: se agregó entrada de usuario y documentación para mejorar la comprensión del proyecto.
+
+Este ejercicio demuestra cómo TDD ayuda a evitar errores comunes en la lógica del cálculo y garantiza que los resultados sean los esperados antes de pasar a producción.
 
